@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3c5077;
+}
+
+.input-box {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 300px auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 5px 10px;
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.input-box i {
+  font-size: 25px;
+  color: grey;
+  cursor: pointer;
+}
+
+.input-box i:hover {
+  color: red;
+}
